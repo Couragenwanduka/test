@@ -1,6 +1,24 @@
+Your `README.md` looks great overall! ✅
+However, there are a few **small formatting and clarity issues** to fix:
 
+---
 
-```markdown
+### ✅ Corrections & Suggestions:
+
+1. 🔧 **Backticks mismatch for code blocks**
+   You used four backticks \`\`\`\` in two places (which breaks markdown). Use **three** backticks (\`\`\`), not four.
+
+2. ✏️ **Minor typo**
+   In your Git clone instruction, the folder is `test.git`, but your next step says `cd backend-task`. These should match unless you're renaming it.
+
+3. 🧹 **Extra spacing in Project Structure**
+   You have an unnecessary empty line between triple backticks and the folder structure.
+
+---
+
+### ✅ Revised & Clean Version:
+
+````markdown
 # 💳 Backend Task API
 
 This is a simple RESTful API built with **Express**, **TypeScript**, and **Prisma** that manages **Users (including Vendors)** and **Payments**. It includes features such as user creation, JWT authentication, payment tracking, and role-based access control.
@@ -9,8 +27,7 @@ This is a simple RESTful API built with **Express**, **TypeScript**, and **Prism
 
 ## 📁 Project Structure
 
-```
-
+```bash
 ├── prisma/                   # Prisma schema and migrations
 ├── src/
 │   ├── controller/           # Express route controllers
@@ -22,31 +39,29 @@ This is a simple RESTful API built with **Express**, **TypeScript**, and **Prism
 │   ├── interface/            # TypeScript interfaces
 │   ├── generated/prisma/     # Prisma client output
 │   └── index.ts              # Entry point
-
 ````
 
 ---
 
 ## 🚀 Features
 
-- 👤 **User & Vendor Management**
-- 🔐 **JWT Authentication**
-- 💰 **Payment Creation & Approval**
-- 📄 **Swagger API Documentation**
-- 📥 **Validation with Joi**
-
+* 👤 **User & Vendor Management**
+* 🔐 **JWT Authentication**
+* 💰 **Payment Creation & Approval**
+* 📄 **Swagger API Documentation**
+* 📥 **Validation with Joi**
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Node.js**
-- **Express**
-- **TypeScript**
-- **Prisma ORM**
-- **PostgreSQL**
-- **Joi**
-- **Swagger**
+* **Node.js**
+* **Express**
+* **TypeScript**
+* **Prisma ORM**
+* **PostgreSQL**
+* **Joi**
+* **Swagger**
 
 ---
 
@@ -58,7 +73,7 @@ Create a `.env` file in the root directory:
 DATABASE_URL="postgresql://yourUser:yourPassword@localhost:5432/backend_task"
 PORT=5000
 JWT_SECRET=your_jwt_secret
-````
+```
 
 ---
 
@@ -69,7 +84,7 @@ JWT_SECRET=your_jwt_secret
 git clone https://github.com/Couragenwanduka/test.git
 
 # Navigate to project folder
-cd backend-task
+cd test
 
 # Install dependencies
 npm install
@@ -144,6 +159,9 @@ Use the `/vendors` route for creating users and `/payment` for creating and mana
 Built by **Courage Nduka**
 Feel free to connect on [LinkedIn](https://www.linkedin.com/in/couragenduka?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app) or reach out via email.
 
+```
+
 ---
 
+Let me know if you want to add a **license section**, **contribution guide**, or **Docker setup**!
 ```
